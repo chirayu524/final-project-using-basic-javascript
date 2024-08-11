@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ee5f5f;
+    border: 1px solid #e65454;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    background-color: #4d9dde;
+    padding: 20px;
+    border: 1px solid #65b8e9;
+    margin-bottom: 20px;
+}
+
+.book-list-container {
+    background-color: #d84040;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+#book-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#book-list li {
+    padding: 10px;
+    border-bottom: 1px solid #e54e4e;
+}
+
+#book-list li:last-child {
+    border-bottom: none;
+}
+
+#book-list li:hover {
+    background-color: #55b2cb;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #d04e4e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
